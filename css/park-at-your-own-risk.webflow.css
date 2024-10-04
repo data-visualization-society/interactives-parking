@@ -29,6 +29,7 @@
 .vertical-container {
   grid-column-gap: 92px;
   grid-row-gap: 92px;
+  flex: none;
   justify-content: flex-start;
   align-items: center;
   width: 90vw;
@@ -51,6 +52,7 @@
 }
 
 .sans.large.centered.mobile {
+  flex: none;
   display: none;
 }
 
@@ -69,6 +71,7 @@
 }
 
 .sans.centered.reduce-leading.mobile {
+  flex: none;
   display: none;
 }
 
@@ -198,13 +201,15 @@
   grid-column-gap: 42px;
   grid-row-gap: 42px;
   flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
   margin-top: 100px;
   margin-bottom: 40px;
   display: flex;
-  position: relative;
 }
 
 .text-block {
+  flex: none;
   margin-left: 40px;
   margin-right: 40px;
 }
@@ -750,6 +755,7 @@
 .section {
   grid-column-gap: 84px;
   grid-row-gap: 84px;
+  flex: none;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -908,7 +914,6 @@
   place-items: end stretch;
   height: 420px;
   display: grid;
-  position: relative;
 }
 
 .cars {
@@ -1143,12 +1148,14 @@
   justify-content: flex-start;
   align-items: center;
   width: 100vw;
-  height: 500vh;
+  height: 4200px;
   min-height: 4200px;
   max-height: 5000px;
+  position: relative;
 }
 
 .center {
+  z-index: -1;
   justify-content: flex-start;
   align-items: center;
   position: sticky;
@@ -1156,6 +1163,7 @@
 }
 
 .header-background {
+  z-index: -1;
   background-image: linear-gradient(#ffe1d9, #fff0);
   width: 100vw;
   height: 100vh;
@@ -1206,6 +1214,7 @@
 }
 
 ._100.mobile {
+  flex: none;
   display: none;
 }
 
@@ -1747,7 +1756,6 @@
   }
 
   .v-center {
-    height: 600vh;
     max-height: 6000px;
   }
 
@@ -2016,7 +2024,7 @@
 
   .in-text-video.plat {
     max-width: 90vw;
-    max-height: 42vw;
+    max-height: 46vw;
   }
 
   .star-combo.massive {
@@ -2316,7 +2324,7 @@
   }
 
   .v-center {
-    height: 400vh;
+    height: 3600px;
     min-height: 3200px;
     max-height: 4000px;
   }
@@ -3427,6 +3435,10 @@
 }
 
 @media screen and (max-width: 479px) {
+  #w-node-_550e57ff-f163-9113-5e88-fbf97fdf2501-4066b938 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
   #w-node-_831dd346-b4d3-c494-d681-abf0627e7a3d-4066b938, #w-node-_831dd346-b4d3-c494-d681-abf0627e7af2-4066b938, #w-node-_831dd346-b4d3-c494-d681-abf0627e7b0a-4066b938, #w-node-_831dd346-b4d3-c494-d681-abf0627e7b30-4066b938 {
     grid-area: 1 / 1 / 2 / 2;
     place-self: center;
