@@ -12,12 +12,14 @@ align-items: center;
   img{
     margin-top: 2rem;
     height: 50px;
+    cursor: pointer;
   }
 
-@media (max-width: 991px) {
+@media (max-width: 1028px) {
     img{
       margin-top: 1rem;
       height: 40px;
+      cursor: pointer;
   }
   
 }
